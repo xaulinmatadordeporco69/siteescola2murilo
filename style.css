@@ -1,1 +1,88 @@
 
+:root{
+    background-image: url(img/Nether.png);
+    --cor-letra: white;
+
+}
+.Titulo_Principal{
+    text-align: center;
+    color: var(--cor-letra);
+    padding: 10px;
+}
+.divisao{
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(243, 243, 243);
+    margin:100px 600px 0px 600px;
+}
+.texto{
+    color: var(--cor-letra);
+    padding-left: 120px;
+    font-size: 20px;
+    display: inline ;
+    text-align: center;
+}
+.texto2{
+    padding-left: 50px;
+    font-size: 17px;
+    display: inline ;
+    text-align: center;
+}
+.texto3{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.termo{
+    color: blue;
+    text-decoration: none;
+}
+.botao{
+    margin: solid, 10px;
+    background-color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 300px;
+}
+
+.NAO{
+    text-align: center;
+    color: var(--cor-letra);
+}
+.divisao2{
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(243, 243, 243);
+}
+
+
+a {
+    text-decoration: none;
+}
+.box{
+    font-size: 20px;
+    color: white;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background: #191919;
+    flex-direction: column;
+    display:flex ;
+    align-items: center;
+    justify-content: center;   
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+button{
+height: 30px;
+width: 50px;
+background: white;
+border-radius: 5px;
+color: blue;
+font-weight:600 ;
+}
