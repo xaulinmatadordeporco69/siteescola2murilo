@@ -1,13 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valorant point gratís online sem rack nem nada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastre-se no Nether</title>
 </head>
 <body>
-    <h1>Paint you mother</h1>
-    <p>coloque sua senhas e nome da conta para ganhar VPs gratís</p>
+    <div class="divisao2">
+    <h1 class="NAO">Bem-Vindo ao Nether</h1>
+    <h2 class="NAO">Esse é o nosso servidor privado de minecraft original/pirata.</p>
+    </div>
+    <div class="divisao">
+    <h1 class="Titulo_Principal">Começe por aqui!</h1>
+    <p class="texto"> Qual seu Nome: </p> <input type="text" name="Name" size="20" class="texto2" required>
+    <br></br>
+    <p class="texto"> Cadastre seu email: </p> <input type="text" name="Name" size="20" class="texto3" placeholder="Nether123@gmail.com" required>
+    <br></br>
+    <p class="texto"> Qual sua idade:  </p> <input type="date" name="Name" size="20" required>
+    <br></br>
+    <p class="texto"> Seu Genero:  </p> <select>
+        <option>Homem</option>
+        <option>Mulher</option>
+    </select>
+    <br></br>
+    <p class="texto"> Concorda com os <a href="https://www.site.com.br/termos-de-utilizacao/" class="termo">TERMOS</a> </p> <input type="checkbox" name="Name" size="20">
+    <br></br>
+        <br></br>
+     <a class="botao" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Entre</a>
+     <br></br>
+    </div>
+    <div class="box">
+        <p>Gostou do nosso Site?</p>
+        <div class="buttons-container">
+            <button>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">sim</a>
+            </button>
+            <button id="no">não</button>
+        </div>
+    </div>
 </body>
+<script>
+    let button = document.getElementById('no');
+    let height = window.innerHeight - 50;
+    let width = window.innerWidth - 50;
+
+    button.addEventListener('mouseover',function(){
+        button.style.position  = "absolute";
+        button.style.top = Math.random() * height + "px";
+        button.style.left = Math.random() *width + "px";
+    })
+</script>
 </html>
